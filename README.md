@@ -1,4 +1,4 @@
-# Como cada estrutura/algoritmo foi usado no contexto do problema
+
 
 ## Definição clara do problema
 
@@ -17,7 +17,8 @@ Em unidades de diagnóstico, precisamos planejar compras de insumos ao longo de 
 - **j** — último dia coberto por um pedido feito em \(t\) (intervalo \(t \to j\)).
 
 ---
-
+# Como cada estrutura/algoritmo foi usado no contexto do problema
+---
 ## 1) Recursiva com memorização (top-down)
 - **Ideia:** definimos uma função `dp(t)` que retorna o custo mínimo para atender dos dias `t..T-1`.
 - **Fluxo:** para um `t` dado, testamos todos os `j ≥ t`, computando `Custo(t→j) + dp(j+1)`, e escolhemos o menor.
