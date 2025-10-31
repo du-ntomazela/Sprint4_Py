@@ -66,3 +66,8 @@ Em unidades de diagnóstico, precisamos planejar compras de insumos ao longo de 
 - **Possíveis extensões:** custos que variam no tempo, capacidade de compra, lead time, e custo residual no fim do horizonte. A estrutura da DP se mantém, alterando apenas a função de custo e/ou os estados.
 
 ---
+## Integrantes:
+- Eduardo Tomazela rm556807
+- Léo Kenzo rm557768
+- Luiz Henrique Silva rm555235
+
